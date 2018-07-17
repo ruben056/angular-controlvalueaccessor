@@ -1,0 +1,5 @@
+<span>
+  <input class="dag"   maxlength="2" type="text" [ngModel]="dag"     placeholder="dd" (ngModelChange)="dagChanged($event)"/>
+  <input class="maand" maxlength="2" type="text" [ngModel]="maand"   placeholder="mm" (ngModelChange)="maandChanged($event)"/>
+  <input class="jaar"  maxlength="4" type="text" [ngModel]="jaar"    placeholder="yyyy" (ngModelChange)="jaarChanged($event)"/>
+</span>

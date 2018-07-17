@@ -1,0 +1,10 @@
+.dag, .maand{
+  width: 2ch;
+}
+.jaar{
+  width:4ch;
+}
+
+input{
+  width:30%;
+}
